@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(Total/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg);
+ 
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.393);
+    font-size: -webkit-xxx-large;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    width: 400px;
+    height: 400x;
+    background-color: rgba(2, 2, 2, 0.363);
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.174);
+    top: 0;
+    transition: top ease 0.5s;    
+}
+.box:hover{
+    top: -50px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.393);
+}
+
+.img{
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+p{
+    text-align: center;
+    color: azure;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+
+}
+div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    width: 400px;
+    height: 400x;
+    background-color: rgba(2, 2, 2, 0.363);
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.174);
+    top: 0;
+    transition: top ease 0.5s;
+    /* left:550px;  */
+    margin: 0 auto;   
+}
+div:hover{
+    top: -50px;
+}
